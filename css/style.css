@@ -1,0 +1,131 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.white-title-font {
+    color: white;
+    font-weight: 800;
+    font-size: xx-large;
+}
+
+.black-title-font {
+    color: black;
+    font-weight: 800;
+    font-size: xx-large;
+}
+
+.white-desc-font {
+    color: white;
+    font-weight: 500;
+    font-size: x-large;
+}
+
+.black-desc-font {
+    color: black;
+    font-weight: 500;
+    font-size: x-large;
+}
+
+.title {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.navigation {
+    position: fixed;
+    left: 0;
+    right: 0;
+    font-size: large;
+    font-weight: 800;
+    color: rgba(255, 255, 255, .7);
+    padding: 30px 15%;
+    vertical-align: middle;
+}
+
+.navigation > p {
+    float: left;
+}
+
+.main-nav {
+    float: right;
+    padding: auto;
+}
+
+.main-nav > a:link, .main-nav > a:visited {
+    margin: 10px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, .7);
+}
+
+.main-nav > a:hover {
+    color: rgba(255, 255, 255, 1);
+}
+
+#banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/banner/banner.jpeg");
+    background-repeat: no-repeat;
+    z-index: -1;
+    padding: 200px;
+}
+
+#inner-banner {
+    padding: 100px;
+    background-color: rgba(0, 0, 0, .5);
+    border: 2px solid white;
+    text-align: center;
+}
+
+.icon img {
+    width: 30px;
+    margin: 30px;
+}
+
+#about-me {
+    margin-top: 50px;
+}
+
+#about-me-desc {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 15%;
+
+    border: 1px solid black;
+}
+
+.about-me-specific {
+    display: flex;
+}
+
+.about-me-specific .writing {
+    display: flex;
+    flex-direction: column;
+}
+
+#skills {
+    margin: 50px auto;
+    padding: 40px;
+    background-color: #f9c51d;
+}
+
+.skills-set {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+}
+
+.skills-set > img {
+    width: 200px;
+    padding: 50px;
+    border-radius: 15%;
+    background-color: aliceblue;
+}

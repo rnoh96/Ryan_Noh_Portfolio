@@ -57,7 +57,7 @@ body {
     padding: auto;
 }
 
-.main-nav > a:link, .main-nav > a:visited {
+.main-nav > a:link, .main-nav > a:visited, .navigation > a {
     margin: 10px;
     text-decoration: none;
     color: rgba(255, 255, 255, .7);
@@ -104,6 +104,10 @@ body {
 
 .about-me-specific {
     display: flex;
+}
+
+.writing > p:nth-child(odd) {
+    font-weight: bold;
 }
 
 .about-me-specific .writing {

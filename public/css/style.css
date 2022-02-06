@@ -5,7 +5,7 @@ html {
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0 !important;
-    /* padding: 0 !important; */
+    padding: 0 !important;
 }
 
 section {
@@ -53,9 +53,9 @@ section {
     vertical-align: middle;
 }
 
-.navigation > p {
+/* .navigation > p {
     float: left;
-}
+} */
 
 .main-nav {
     float: right;
@@ -103,7 +103,6 @@ section {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin: 0 15%;
-
     border: 1px solid black;
 }
 
@@ -167,6 +166,7 @@ section {
     grid-template-rows: repeat(4, 1fr);
     justify-items: start;
     align-items: flex-end;
+    word-wrap: break-word;
 }
 
 .project_desc > img {
@@ -187,6 +187,10 @@ section {
 .desc1 {
     font-weight: bold;
 }
+
+.desc2 a {
+    display: inline;
+}
  
 @media (max-width: 1045px) {
     #inner-banner {
@@ -194,6 +198,13 @@ section {
         background-color: rgba(0, 0, 0, .5);
         border: 2px solid white;
         text-align: center;
+    }
+
+    #about-me-desc {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0 15%;
+        border: 1px solid black;
     }
 
     .skills-set {
@@ -214,6 +225,10 @@ section {
     .project_desc > img {
         display: none;
     }
+
+    .desc1, .desc2 {
+        margin: 10px;
+    }
 }
 
 @media (max-width: 670px) {
@@ -222,5 +237,12 @@ section {
         grid-template-columns: 1fr;
         justify-items: center;
         align-items: center;
+    }
+
+    #about-me-desc {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 0 15%;
+        border: 1px solid black;
     }
 }

@@ -15,25 +15,25 @@ section {
 .white-title-font {
     color: white;
     font-weight: 800;
-    font-size: xx-large;
+    font-size: 2em;
 }
 
 .black-title-font {
     color: black;
     font-weight: 800;
-    font-size: 50px;
+    font-size: 4em;
 }
 
 .white-desc-font {
     color: white;
     font-weight: 500;
-    font-size: x-large;
+    font-size: 1.5em;
 }
 
 .black-desc-font {
     color: black;
     font-weight: 500;
-    font-size: x-large;
+    font-size: 1.5em;
 }
 
 .title {
@@ -80,11 +80,11 @@ section {
     background-image: url("../images/banner/banner.jpeg");
     background-repeat: no-repeat;
     background-size: 100%;
-    padding: 200px;
+    padding: 10%;
 }
 
 #inner-banner {
-    padding: 100px;
+    padding: 10%;
     background-color: rgba(0, 0, 0, .5);
     border: 2px solid white;
     text-align: center;
@@ -228,6 +228,7 @@ section {
 
     .desc1, .desc2 {
         margin: 10px;
+        font-size: 1em;
     }
 }
 
